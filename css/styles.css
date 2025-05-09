@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+html,body {
+    height: 100%;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 2rem;
+}
+
+.btn-custom {
+  background-color: #DD2C22;
+  color: white;
+  transition: 0.3s ease;
+    
+}
+
+.link-personalizado {
+  color:white ;
+  transition: all 0.3s ease;
+}
+
+.link-personalizado:hover {
+  background-color: #DD2C22;
+  color: white;
+  text-decoration: none;
+}
+

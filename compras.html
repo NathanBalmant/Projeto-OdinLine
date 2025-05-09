@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odinline - Minhas Compras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="d-flex align-items-center py-4 bg-body-secondary">
+    <main class="w-100 m-auto form-container px-4">
+        <div class="d-flex justify-content-end">
+            <button onclick="logout()" class="btn btn-outline-danger btn-sm mt-2">Sair</button>
+        </div>
+        <img src="assets/image-removebg-preview.png" alt="Logo Odinline" class="mb-4" width="180">
+        <h1 class="h4 mb-3 fw-semibold">Minhas Compras</h1>
+
+        <!-- Tabela de compras -->
+        <h2 class="h5 mt-4 mb-3">Histórico de Compras</h2>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Valor Pago</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaCompras">
+                <!-- Preenchido via JavaScript -->
+            </tbody>
+        </table>
+        <div class="text-center mt-4">
+            <a href="alertas.html" class="link-personalizado">
+                ← Voltar para página de alertas
+            </a>
+        </div>
+    </main>
+
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="js/compras.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
